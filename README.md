@@ -15,27 +15,27 @@ All pipelines are built using **Google Cloud Platform (GCP)** and the **Apache B
 
 ```mermaid
 flowchart LR
-    subgraph Data Sources & Ingestion
-        A[Cloud Storage Buckets] --> B[Cloud Functions Ingestion]
-        B --> C[Cloud Pub/Sub]
+    subgraph Ingestion["Data Sources & Ingestion"]
+        A["Cloud Storage Buckets"] --> B["Cloud Functions Ingestion"]
+        B --> C["Cloud Pub/Sub Topic"]
     end
 
-    subgraph Streaming Infrastructure
-        D[VM Producer] --> F[Apache Kafka on GCE (KRaft)]
-        E[Serverless CF Producer] --> F
+    subgraph Streaming["Streaming Infrastructure"]
+        D["Compute Engine VM Producer"] --> F["Apache Kafka on GCE (KRaft)"]
+        E["Serverless Cloud Function Producer"] --> F
     end
 
-    subgraph Distributed Processing Engines
-        F --> G[Spark Structured Streaming on Dataproc]
-        A --> H[PySpark Batch ETL & SCD Type 1/2]
-        A --> I[PySpark MLlib Distributed Training]
+    subgraph Processing["Distributed Processing Engines"]
+        F --> G["Spark Structured Streaming on Dataproc"]
+        A --> H["PySpark Batch ETL & SCD Type 1/2"]
+        A --> I["PySpark MLlib Distributed Training"]
     end
 
-    subgraph Consumption & Sinks
-        C --> J[Heterogeneous Subscribers (VM, CF, Local)]
-        G --> K[Ranked Output Sinks in GCS]
-        H --> L[Cleaned Data Warehouse Tables]
-        I --> M[Automated Dataproc Inference Trigger]
+    subgraph Sinks["Consumption & Sinks"]
+        C --> J["Heterogeneous Subscribers (VM, CF, Local)"]
+        G --> K["Ranked Output Sinks in GCS"]
+        H --> L["Cleaned Data Warehouse Tables"]
+        I --> M["Automated Dataproc Inference Trigger"]
     end
 ```
 

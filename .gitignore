@@ -62,13 +62,41 @@ venv.bak/
 *.rar
 *.7z
 
+# Local Bucket Cache & Personal Documents
 GCS/
 GCS/**
+technical_report.md
 
+# Datasets, Data Files & Partitions
+*.csv
+*.tsv
+*.parquet
+*.avro
+*.libsvm
+*.jsonl
+part-*
+*part-*
+_SUCCESS
 W9/mnist
 W9/mnist.t
 OPPE/Train_details_22122017.csv
-technical_report.md
+
+# Text datasets and pipeline output artifacts
+W2/w2_input_alice.txt
+W2/w2_output.txt
+W3/*.txt
+W4/click_file.txt
+W4/w4_w4_rdd_output*
+W7/sample.txt
+W7/outputs/
+W8/input/
+W8/logs.log
+*/output/
+*/outputs/
+
+# Preserve command and documentation text files
+!*/cmds.txt
+!*/README.md
 
 # Temporary files & Logs
 *.log

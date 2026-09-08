@@ -1,7 +1,0 @@
-transaction_id,customer_id,transaction_date,transaction_amount,payment_mode,transaction_amount_orig,amount_category,transaction_date_parsed,transaction_month
-t0001,c104,2025-01-22,2291.0,wallet,2291,Low,2025-01-22,1
-t0002,c137,2025-01-04,9897.0,wallet,9897,High,2025-01-04,1
-,c001,2025-02-10,5000.0,upi,5000,Medium,2025-02-10,2
-tX01,,2025-02-12,4000.0,card,4000,Medium,2025-02-12,2
-tX02,c050,2025-02-15,-300.0,wallet,-300,,2025-02-15,2
-tX03,c020,2025/02/30,2000.0,cash,2000,Low,,

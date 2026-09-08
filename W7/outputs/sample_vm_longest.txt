@@ -1,5 +1,0 @@
-Input file: sample.txt
-Maximum line length: 108
-Longest line(s):
-The trees swayed gently in the breeze, their leaves rustling softly as if whispering secrets to one another.
-At the edge of the forest, a small river trickled through the rocks, its waters clear and cool to the touch.

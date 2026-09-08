@@ -94,6 +94,11 @@ W8/logs.log
 */output/
 */outputs/
 
+# Images & Screenshots
+*.png
+*.jpg
+*.jpeg
+
 # Preserve command and documentation text files
 !*/cmds.txt
 !*/README.md

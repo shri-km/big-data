@@ -43,7 +43,7 @@ flowchart LR
 
 ## Weekly Curriculum & Project Index
 
-| Week / Exam | Topic / Architecture | Primary Tech Stack | Description & Links |
+| Module | Topic / Architecture | Primary Tech Stack | Description & Links |
 | :--- | :--- | :--- | :--- |
 | **[Week 2](W2/)** | **Compute Engine Text Analytics** | GCE VM, GCS, Python | Automated cloud text analytics on a Compute Engine VM. Streams data from GCS, computes line length statistics, and exports results. [View Details](W2/README.md) |
 | **[Week 3](W3/)** | **Serverless Event-Driven Processing** | Cloud Functions (2nd Gen), CloudEvents, GCS | Serverless microservice triggered automatically on GCS file upload. Processes text files and logs structured metrics with loop-prevention heuristics. [View Details](W3/README.md) |

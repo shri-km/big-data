@@ -9,9 +9,6 @@ A comprehensive collection of production-grade distributed data pipelines, strea
 
 All pipelines are built using **Google Cloud Platform (GCP)** and the **Apache Big Data ecosystem**, incorporating industry best practices such as environment-based configuration, serverless event triggers, fault-tolerant checkpointing, and decoupled pub/sub topologies.
 
-> 📄 **Looking for in-depth technical analysis and resume-ready bullet points?**  
-> Check out the complete [Technical Report](technical_report.md).
-
 ---
 
 ## Architecture Overview
@@ -111,7 +108,6 @@ chmod +x *.sh
 ```text
 ├── .gitignore                  # Git ignore file (videos, zips, secrets, caches)
 ├── README.md                   # Global project documentation
-├── technical_report.md         # Comprehensive engineering report & resume portfolio
 ├── W2/                         # Week 2: Compute Engine VM Text Analytics (.env.example)
 ├── W3/                         # Week 3: Serverless GCS Cloud Functions
 ├── W4/                         # Week 4: PySpark RDD vs. DataFrame Benchmarks (.env.example)

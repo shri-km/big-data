@@ -121,7 +121,3 @@ chmod +x *.sh
 ```
 
 ---
-
-## License
-
-This repository is maintained for academic and professional portfolio purposes.

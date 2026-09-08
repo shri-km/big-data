@@ -1,0 +1,6 @@
+customer_id,customer_name,city,dob,effective_date,expiry_date,current_flag
+c001,Customer_001,Bengaluru,2001-06-04,2025-01-01,,1
+c003,Customer_003,Chennai,1996-08-26,2025-01-01,,1
+c004,Customer_004,Coimbatore,1990-05-29,2025-01-01,,1
+c005,Customer_005,Bengaluru,1997-03-02,2025-01-01,,1
+c006,Customer_006,Coimbatore,1984-05-19,2025-01-01,,1

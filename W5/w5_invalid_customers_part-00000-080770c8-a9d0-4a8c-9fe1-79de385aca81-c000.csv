@@ -1,0 +1,6 @@
+customer_id,customer_name,city,status,city_original
+c001,Customer_001,Trivandrum,active,TRIVANDRUM
+c002,Customer_002,Chennai,active,Chennai
+,Customer_X01,Kochi,active,Kochi
+c998,Customer_X03,Trivandrum,,Trivandrum
+c999,Customer_X02,,active,
